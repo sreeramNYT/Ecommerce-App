@@ -10,7 +10,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
+<style type="text/css">
+ 
+ body
+ {background-image: url("bgImage.jpg");
+ }
+ </style>
    
    <link rel="stylesheet" href="styles.css"/>
    <title>Ecommerce App</title>
@@ -19,12 +24,12 @@
 
 <div id='cssmenu'>
 <ul>
-   <li><a href='#'><span>Home</span></a></li>
-   <li class='has-sub'><a href='#'><span>Purchases</span></a>
+   <li><a href='Index.jsp'><span>Home</span></a></li>
+   <li class='has-sub'><a href='RegularBundle.jsp'><span>Purchases</span></a>
       <ul>
          <li class='has-sub'><a href='#'><span>Bundles</span></a>
             <ul>
-               <li><a href='#'><span>Regular</span></a></li>
+               <li><a href='RegularBundle.jsp'><span>Regular</span></a></li>
                <li class='has-sub'><a href='#'><span>Gift Certifcate</span></a>
                <ul>
               	 <li class='last'><a href='#'><span>Gift Purchase</span></a></li>
